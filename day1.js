@@ -10,3 +10,5 @@ function revStr(str) {
  
 console.log(revStr('abcd'));
 
+//adding a comment for learning 
+
