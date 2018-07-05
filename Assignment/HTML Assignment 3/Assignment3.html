@@ -1,0 +1,70 @@
+<html>
+<head>Assignment 3
+
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
+</head><br><br>
+<title>Assignment 3</title>
+<body>
+    <form>
+    <label for="NumberDemo">Number Demo </label><br>
+        <input type="Number" id= "NumberDemo"><br>
+
+    <label for="RangeDemo">Range Demo </label><br>
+        <input type="Range" id= "RangeDemo" min= "0" max="25" step="5" value="5" ><br>
+
+    <label for="ColorDemo">Color Demo </label><br>
+        <input type="color" id= "ColorDemo" size="20"><br>
+    <form>
+    <label for="DateDemo">Date Demo </label><br>
+    <div>    
+    <input type="date" id= "DateDemo" placeholder="dd-mm-yyyy" min="01-01-2000" max="31-12-2999" ><br>
+        <span class="validity"></span>
+    </div>
+        <input type="submit">
+    </form>
+
+    <form>
+    <label for="TimeDemo">Time Demo </label><br>
+        <input type="time" id= "TimeDemo" min="09:00" max="18:00" value="09:00"><br>
+        <span class="validity"></span>
+    </div>
+    <input type="submit">
+    </form>
+
+    <form>
+            <label for="DateTimeLocalDemo">Date Time Local Demo </label><br>
+                <input type="datetime-local" id= "DateTimeLocalDemo" min="2017-06-07T00:00" max="2018-06-14T00:00"><br>
+                <span class="validity"></span>
+            </div>
+            <input type="submit">
+    </form>
+
+
+    <form>
+    <label for="DateTimeDemo">Date Time Demo (This is obsolete in HTML5)</label><br>
+        <input type="datetime" id= "DateTimeDemo" min="2017-06-07T00:00" max="2018-06-14T00:00" value="2014-02-06T10:57Z">
+         <span class="validity"></span>
+    </div>
+    <input type="submit">
+    </form>
+
+    <label for="BirthMonth">Birth Month </label><br>
+        <input type="month" id= "BirthMonth"><br>
+
+    <label for="VacationWeek">Vacation Week </label><br>
+        <input type="week" id= "VacationWeek">
+    
+        <input type="text" id = "plantxt" placeholder="Enter Value">
+
+        <input type="button" value="GO!!" onclick="alertFunc()"><br>
+    
+
+    <script>
+        function alertFunc(){
+            var msg1 = $('#plantxt').val();
+            alert(msg1);
+       }
+    </script>
+     </body>
+</html>
